@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/b"></script>
+    <title>The Mobile shop</title>
+
+    <style>
+
+      .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+img{
+	width: 80%;
+
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.checked {
+  color: orange;
+}
+
+    </style>
+
+</head>
+
+<!--Body-->
+<body>
+
+<!--nav bar--> 
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: black; color: white;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="home.html"><strong>The Mobile Shop</strong></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="products.html">NEW ARRIVAL</a></li>
+        <li><a href="products.html">OUR BRANDS</a></li>
+        <li><a href="products.html">SALE</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
+          <ul class="dropdown-menu text-">
+            <li><a href="products.html">ACCESSORIES</a></li>
+            <li><a href="products.html">SMARTPHONES</a></li>
+            <li><a href="products.html">SMARTWATCHES</a></li>
+            <li><a href="products.html">GADGETS</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-user"></span> Sign-in</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<hr class="clearfix w-100 d-md-none pb-3" style="border-width: 5px; color: black; padding-top: 50px; ">
+
+<div class="container">
+	<div class="row">
+		
+		<div class="col-lg-6">
+			
+			<!--Carousel/Slider-->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  				<!-- Indicators -->
+  	<ol class="carousel-indicators">
+    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    	<li data-target="#myCarousel" data-slide-to="1"></li>
+    	<li data-target="#myCarousel" data-slide-to="2"></li>
+    	<li data-target="#myCarousel" data-slide-to="3"></li>
+  	</ol>
+
+  <!-- Wrapper for slides -->
+  	<div class="carousel-inner">
+
+    	<div class="item active">
+      <img src="images/iphone-12-green.webp" alt="New York" class="img-fluid">
+      <div class="carousel-caption pr-4">
+        </div>
+    	</div>
+
+    	<div class="item">
+      <img src="images/iphone-12-white.webp" alt="California" class="img-fluid">
+      <div class="carousel-caption">
+        </div>
+    	</div>
+
+    	<div class="item">
+      <img src="images/iphone-12-blue.webp" alt="New York" class="img-fluid">
+      <div class="carousel-caption">
+        </div>
+    	</div>
+
+    	<div class="item">
+      <img src="images/iphone-12-white.webp" alt="New York" class="img-fluid">
+      <div class="carousel-caption">
+        </div>
+    	</div>
+
+  		</div>
+
+  <!-- Left and right controls -->
+  	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    	<span class="glyphicon glyphicon-chevron-left"></span>
+   	 	<span class="sr-only">Previous</span>
+  	</a>
+
+  	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+    	<span class="glyphicon glyphicon-chevron-right"></span>
+    	<span class="sr-only">Next</span>
+  	</a>	
+		
+		</div>
+	</div>
+
+    <div class="card col-lg-6 text-center">
+        <div class="card-body">
+          <h2 class="card-title"><strong>IPHONE 12 (SINGLE SIM + ESIM PTA APPROVED)</strong></h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          <p class="card-text"><strong class="text-muted">Rs: 201,500</strong></p>
+          <button class="btn btn-block btn-success btn-lg" style="margin-bottom: 20px;"> ADD TO CART</button>
+
+          <h4 class="text-left"><strong>Description</strong> </h4>
+
+          <P class="text-justify text-sm" style="font-size: 1.3rem;">Apple is gearing up for iPhone 12, with same the RAM capacity that was introduced in the previous 11. There is no upgrade in this category of the phone. The upcoming smartphone Apple iPhone 12 may be having almost the same specs as the 11 has got in its bag. The company does not disclose two of the main specs usually and these RAM and the battery capacity of Apple's iPhone 12.</P>
+
+          <h4 class="text-left"><strong>Details</strong></h4>
+          <div class="short-description">
+            <table cellspacing="0" data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="2" scope="row" data-mce-fragment="1">LAUNCH</th>
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=phone-life-cycle" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=phone-life-cycle">Announced</a></td>
+<td class="nfo" data-spec="year" data-mce-fragment="1">2020, October 13</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=phone-life-cycle" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=phone-life-cycle">Status</a></td>
+<td class="nfo" data-spec="status" data-mce-fragment="1">Available. Released 2020, October 23</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1" style="width: 528px;">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="6" scope="row" data-mce-fragment="1" style="width: 80.7333px;">BODY</th>
+<td class="ttl" data-mce-fragment="1" style="width: 105.267px;"><a href="https://www.gsmarena.com/apple_iphone_12-10509.php#" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/apple_iphone_12-10509.php#" onclick="helpW('h_dimens.htm');">Dimensions</a></td>
+<td class="nfo" data-spec="dimensions" data-mce-fragment="1" style="width: 326px;">146.7 x 71.5 x 7.4 mm (5.78 x 2.81 x 0.29 in)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 105.267px;"><a href="https://www.gsmarena.com/apple_iphone_12-10509.php#" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/apple_iphone_12-10509.php#" onclick="helpW('h_weight.htm');">Weight</a></td>
+<td class="nfo" data-spec="weight" data-mce-fragment="1" style="width: 326px;">164 g (5.78 oz)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 105.267px;"><a href="https://www.gsmarena.com/glossary.php3?term=build" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=build">Build</a></td>
+<td class="nfo" data-spec="build" data-mce-fragment="1" style="width: 326px;">Glass front (Gorilla Glass), glass back (Gorilla Glass), aluminum frame</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 105.267px;"><a href="https://www.gsmarena.com/glossary.php3?term=sim" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=sim">SIM</a></td>
+<td class="nfo" data-spec="sim" data-mce-fragment="1" style="width: 326px;">Single SIM (Nano-SIM and eSIM)&nbsp;</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 105.267px;">&nbsp;</td>
+<td class="nfo" data-spec="bodyother" data-mce-fragment="1" style="width: 326px;">IP68 dust/water resistant (up to 6m for 30 mins)<br data-mce-fragment="1">Apple Pay (Visa, MasterCard, AMEX certified)</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1" style="width: 528px;">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="5" scope="row" data-mce-fragment="1" style="width: 79.8667px;">DISPLAY</th>
+<td class="ttl" data-mce-fragment="1" style="width: 104.133px;"><a href="https://www.gsmarena.com/glossary.php3?term=display-type" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=display-type">Type</a></td>
+<td class="nfo" data-spec="displaytype" data-mce-fragment="1" style="width: 327px;">Super Retina XDR OLED, HDR10, 625 nits (typ), 1200 nits (peak)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 104.133px;"><a href="https://www.gsmarena.com/apple_iphone_12-10509.php#" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/apple_iphone_12-10509.php#" onclick="helpW('h_dsize.htm');">Size</a></td>
+<td class="nfo" data-spec="displaysize" data-mce-fragment="1" style="width: 327px;">6.1 inches, 90.2 cm<sup data-mce-fragment="1">2</sup><span data-mce-fragment="1">&nbsp;</span>(~86.0% screen-to-body ratio)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 104.133px;"><a href="https://www.gsmarena.com/glossary.php3?term=resolution" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=resolution">Resolution</a></td>
+<td class="nfo" data-spec="displayresolution" data-mce-fragment="1" style="width: 327px;">1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 104.133px;"><a href="https://www.gsmarena.com/glossary.php3?term=screen-protection" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=screen-protection">Protection</a></td>
+<td class="nfo" data-spec="displayprotection" data-mce-fragment="1" style="width: 327px;">Scratch-resistant ceramic glass, oleophobic coating</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 104.133px;">&nbsp;</td>
+<td class="nfo" data-spec="displayother" data-mce-fragment="1" style="width: 327px;">Dolby Vision<br data-mce-fragment="1">Wide color gamut<br data-mce-fragment="1">True-tone</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1" style="width: 529px;">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="4" scope="row" data-mce-fragment="1" style="width: 82px;">PLATFORM</th>
+<td class="ttl" data-mce-fragment="1" style="width: 101.067px;"><a href="https://www.gsmarena.com/glossary.php3?term=os" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=os">OS</a></td>
+<td class="nfo" data-spec="os" data-mce-fragment="1" style="width: 329.933px;">iOS 14.1, upgradable to iOS 14.2</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 101.067px;"><a href="https://www.gsmarena.com/glossary.php3?term=chipset" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=chipset">Chipset</a></td>
+<td class="nfo" data-spec="chipset" data-mce-fragment="1" style="width: 329.933px;">Apple A14 Bionic (5 nm)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 101.067px;"><a href="https://www.gsmarena.com/glossary.php3?term=cpu" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=cpu">CPU</a></td>
+<td class="nfo" data-spec="cpu" data-mce-fragment="1" style="width: 329.933px;">Hexa-core (2x3.1 GHz Firestorm + 4x1.8 GHz Icestorm)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 101.067px;"><a href="https://www.gsmarena.com/glossary.php3?term=gpu" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=gpu">GPU</a></td>
+<td class="nfo" data-spec="gpu" data-mce-fragment="1" style="width: 329.933px;">Apple GPU (4-core graphics)</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1" style="width: 529px;">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="5" scope="row" data-mce-fragment="1" style="width: 74px;">MEMORY</th>
+<td class="ttl" data-mce-fragment="1" style="width: 105.4px;"><a href="https://www.gsmarena.com/glossary.php3?term=memory-card-slot" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=memory-card-slot">Card slot</a></td>
+<td class="nfo" data-spec="memoryslot" data-mce-fragment="1" style="width: 333.6px;">No</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 105.4px;"><a href="https://www.gsmarena.com/glossary.php3?term=dynamic-memory" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=dynamic-memory">Internal</a></td>
+<td class="nfo" data-spec="internalmemory" data-mce-fragment="1" style="width: 333.6px;">64GB 4GB RAM, 128GB 4GB RAM, 256GB 4GB RAM</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1" style="width: 105.4px;">&nbsp;</td>
+<td class="nfo" data-spec="memoryother" data-mce-fragment="1" style="width: 333.6px;">NVMe</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="4" scope="row" class="small-line-height" data-mce-fragment="1">MAIN CAMERA</th>
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=camera" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=camera">Dual</a></td>
+<td class="nfo" data-spec="cam1modules" data-mce-fragment="1">12 MP, f/1.6, 26mm (wide), 1.4µm, dual pixel PDAF, OIS<br data-mce-fragment="1">12 MP, f/2.4, 120˚, 13mm (ultrawide), 1/3.6"</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=camera" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=camera">Features</a></td>
+<td class="nfo" data-spec="cam1features" data-mce-fragment="1">Dual-LED dual-tone flash, HDR (photo/panorama)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=camera" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=camera">Video</a></td>
+<td class="nfo" data-spec="cam1video" data-mce-fragment="1">4K@24/30/60fps, 1080p@30/60/120/240fps, HDR, Dolby Vision HDR (up to 30fps), stereo sound rec.</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="4" scope="row" class="small-line-height" data-mce-fragment="1">SELFIE CAMERA</th>
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=secondary-camera" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=secondary-camera">Dual</a></td>
+<td class="nfo" data-spec="cam2modules" data-mce-fragment="1">12 MP, f/2.2, 23mm (wide), 1/3.6"<br data-mce-fragment="1">SL 3D, (depth/biometrics sensor)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=secondary-camera" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=secondary-camera">Features</a></td>
+<td class="nfo" data-spec="cam2features" data-mce-fragment="1">HDR</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=secondary-camera" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=secondary-camera">Video</a></td>
+<td class="nfo" data-spec="cam2video" data-mce-fragment="1">4K@24/30/60fps, 1080p@30/60/120fps, gyro-EIS</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="3" scope="row" data-mce-fragment="1">SOUND</th>
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=loudspeaker" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=loudspeaker">Loudspeaker</a></td>
+<td class="nfo" data-mce-fragment="1">Yes, with stereo speakers</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=audio-jack" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=audio-jack">3.5mm jack</a></td>
+<td class="nfo" data-mce-fragment="1">No</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="9" scope="row" data-mce-fragment="1">COMMS</th>
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=wi-fi" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=wi-fi">WLAN</a></td>
+<td class="nfo" data-spec="wlan" data-mce-fragment="1">Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=bluetooth" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=bluetooth">Bluetooth</a></td>
+<td class="nfo" data-spec="bluetooth" data-mce-fragment="1">5.0, A2DP, LE</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=gps" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=gps">GPS</a></td>
+<td class="nfo" data-spec="gps" data-mce-fragment="1">Yes, with A-GPS, GLONASS, GALILEO, QZSS</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=nfc" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=nfc">NFC</a></td>
+<td class="nfo" data-spec="nfc" data-mce-fragment="1">Yes</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=fm-radio" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=fm-radio">Radio</a></td>
+<td class="nfo" data-spec="radio" data-mce-fragment="1">No</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=usb" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=usb">USB</a></td>
+<td class="nfo" data-spec="usb" data-mce-fragment="1">Lightning, USB 2.0</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="9" scope="row" data-mce-fragment="1">FEATURES</th>
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=sensors" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=sensors">Sensors</a></td>
+<td class="nfo" data-spec="sensors" data-mce-fragment="1">Face ID, accelerometer, gyro, proximity, compass, barometer</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1">&nbsp;</td>
+<td class="nfo" data-spec="featuresother" data-mce-fragment="1">Siri natural language commands and dictation</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="7" scope="row" data-mce-fragment="1">BATTERY</th>
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=rechargeable-battery-types" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=rechargeable-battery-types">Type</a></td>
+<td class="nfo" data-spec="batdescription1" data-mce-fragment="1">Li-Ion 2815 mAh, non-removable (10.78 Wh)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=battery-charging" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=battery-charging">Charging</a></td>
+<td class="nfo" data-mce-fragment="1">Fast charging 20W, 50% in 30 min (advertised)<br data-mce-fragment="1">USB Power Delivery 2.0<br data-mce-fragment="1">Qi magnetic fast wireless charging 15W</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=stand-by-time" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=stand-by-time">Stand-by</a></td>
+<td class="nfo" data-spec="batstandby1" data-mce-fragment="1">Up to 17 h (multimedia)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=music-playback-time" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=music-playback-time">Music play</a></td>
+<td class="nfo" data-spec="batmusicplayback1" data-mce-fragment="1">Up to 65 h</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="6" scope="row" data-mce-fragment="1">MISC</th>
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=build" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=build">Colors</a></td>
+<td class="nfo" data-spec="colors" data-mce-fragment="1">Black, White, Red, Green, Blue</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=models" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=models">Models</a></td>
+<td class="nfo" data-spec="models" data-mce-fragment="1">A2403, A2172, A2402, A2404</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=sar" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=sar">SAR EU</a></td>
+<td class="nfo" data-spec="sar-eu" data-mce-fragment="1">0.99 W/kg (head) &nbsp; &nbsp; 0.99 W/kg (body) &nbsp; &nbsp;</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=price" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=price">Price</a></td>
+<td class="nfo" data-spec="price" data-mce-fragment="1"><a href="https://www.gsmarena.com/apple_iphone_12-price-10509.php" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/apple_iphone_12-price-10509.php">$ 829.00 / € 852.43 / £ 799.00 / ₹ 79,899</a></td>
+</tr>
+</tbody>
+</table>
+<table cellspacing="0" data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<th rowspan="5" scope="row" data-mce-fragment="1">TESTS</th>
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/glossary.php3?term=benchmarking" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/glossary.php3?term=benchmarking">Performance</a></td>
+<td class="nfo" data-spec="tbench" data-mce-fragment="1">AnTuTu: 568674 (v8)<br data-mce-fragment="1">GeekBench: 4067 (v5.1)<br data-mce-fragment="1">GFXBench: 58fps (ES 3.1 onscreen)</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/gsmarena_lab_tests-review-751p2.php" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/gsmarena_lab_tests-review-751p2.php">Display</a></td>
+<td class="nfo" data-mce-fragment="1"><a class="noUnd" href="https://www.gsmarena.com/apple_iphone_12-review-2187p3.php#dt" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/apple_iphone_12-review-2187p3.php#dt">Contrast ratio: Infinite (nominal)</a></td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/gsmarena_lab_tests-review-751p5.php" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/gsmarena_lab_tests-review-751p5.php">Camera</a></td>
+<td class="nfo" data-mce-fragment="1">
+<a class="noUnd" href="https://www.gsmarena.com/piccmp.php3?idType=1&amp;idPhone1=10509&amp;nSuggest=1" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/piccmp.php3?idType=1&amp;idPhone1=10509&amp;nSuggest=1">Photo</a><span data-mce-fragment="1">&nbsp;</span>/<span data-mce-fragment="1">&nbsp;</span><a class="noUnd" href="https://www.gsmarena.com/vidcmp.php3?idType=3&amp;idPhone1=10509&amp;nSuggest=1" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/vidcmp.php3?idType=3&amp;idPhone1=10509&amp;nSuggest=1">Video</a>
+</td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/gsmarena_lab_tests-review-751p7.php" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/gsmarena_lab_tests-review-751p7.php">Loudspeaker</a></td>
+<td class="nfo" data-mce-fragment="1"><a class="noUnd" href="https://www.gsmarena.com/apple_iphone_12-review-2187p3.php#lt" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/apple_iphone_12-review-2187p3.php#lt">-24.4 LUFS (Very good)</a></td>
+</tr>
+<tr data-mce-fragment="1">
+<td class="ttl" data-mce-fragment="1"><a href="https://www.gsmarena.com/gsmarena_lab_tests-review-751p6.php" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/gsmarena_lab_tests-review-751p6.php">Battery life</a></td>
+<td class="nfo" data-spec="batlife" data-mce-fragment="1">
+<div data-mce-fragment="1"><a href="https://www.gsmarena.com/apple_iphone_12-10509.php#" data-mce-fragment="1" data-mce-href="https://www.gsmarena.com/apple_iphone_12-10509.php#" onclick="showBatteryPopup(event, 10509);">Endurance rating 84h</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+        </div>
+
+        </div>
+      </div>
+
+	</div>
+</div>
+
+<div class="container">
+  <div class="row" style="padding-bottom: 15px; margin-top: 20px;">
+    <div class="col-md-12 text-center">
+        <h2><strong>OUR RECOMMENDED  PRODUCTS</strong></h2>
+    </div>
+  </div>
+  </div>
+
+<!--Products-->
+<div class="container-fluid">
+  <div class="row" style="margin-top: 20px;">
+    <div class="card col-md-3 text-center">
+        <img class="card-img-top" src="images/iphone-12-blue.webp" alt="Card image cap">
+        <div class="card-body">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text"><strong class="text-muted">Rs: 201,500</strong></p>
+          <button class="btn btn-block btn-success" style="margin-bottom: 10px;"> ADD TO CART</button>
+        </div>
+      </div>
+
+      <div class="card col-md-3 text-center">
+        <img class="card-img-top" src="images/iphone-12-white.webp" alt="Card image cap">
+        <div class="card-body">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text"><strong class="text-muted">Rs: 201,500</strong></p>
+          <button class="btn btn-block btn-success" style="margin-bottom: 10px;"> ADD TO CART</button>
+        </div>
+      </div>
+
+      <div class="card col-md-3 text-center">
+        <img class="card-img-top" src="images/iphone-12-blue.webp" alt="Card image cap">
+        <div class="card-body">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text"><strong class="text-muted">Rs: 201,500</strong></p>
+          <button class="btn btn-block btn-success" style="margin-bottom: 10px;"> ADD TO CART</button>
+        </div>
+      </div>
+
+      <div class="card col-md-3 text-center">
+        <img class="card-img-top" src="images/iphone-12-white.webp" alt="Card image cap">
+        <div class="card-body">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text"><strong class="text-muted">Rs: 201,500</strong></p>
+          <button class="btn btn-block btn-success" style="margin-bottom: 10px;"> ADD TO CART</button>
+        </div>
+      </div>
+
+</div>
+</div>
+
+
+<footer class="page-footer font-small pt-4" style="background-color: black; color: white; margin-top: 50px;">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+
+      <div class="col-lg-3 mb-md-0 mb-3" style="padding-top: 10px;">
+
+        <h5 class="text-uppercase"><b>SHOP</b></h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">SMART PHONES</a>
+          </li>
+          <li>
+            <a href="#!">SMART WATCHES</a>
+          </li>
+          <li>
+            <a href="#!">ACCESSORIES</a>
+          </li>
+          <li>
+            <a href="#!">GADGETS</a>
+          </li>
+          <li>
+            <a href="#!">SHOP ALL</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 mb-md-0 mb-3" style="padding-top: 10px;">
+
+        <h5 class="text-uppercase">BRAND</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">SAMSUNG</a>
+          </li>
+          <li>
+            <a href="#!">APPLE</a>
+          </li>
+          <li>
+            <a href="#!">OPPO</a>
+          </li>
+          <li>
+            <a href="#!">VIVO</a>
+          </li>
+          <li>
+            <a href="about.html">XIAOMI</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 mb-md-0 mb-3" style="padding-top: 10px;">
+
+
+        <h5 class="text-uppercase">help</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">CUSTOMER SUPPORT</a>
+          </li>
+          <li>
+            <a href="#!">SHIPPING DETAILS</a>
+          </li>
+          <li>
+            <a href="#!">EXCHANGE POLICY</a>
+          </li>
+          <li>
+            <a href="#!">RETURN POLICY</a>
+          </li>
+          <li>
+            <a href="#!">CONTACT US</a>
+          </li>
+          <li>
+            <a href="#!">CAREERS</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="col-lg-3 mb-md-0 mb-3" style="padding-top: 10px;">
+
+        <h5 class="text-uppercase">LEGAL</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">CA-DO NOT SELL MY PERSONAL INFORMATION</a>
+          </li>
+          <li>
+            <a href="#!">TERMS & CONDITIONS</a>
+          </li>
+          <li>
+            <a href="#!">PRIVACY POLICY</a>
+          </li>
+          
+        </ul>
+      </div>
+
+    </div>
+    
+
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="#">MOBILESHOP.COM</a>
+  </div>
+</footer>
+
+</body>
+</html>
